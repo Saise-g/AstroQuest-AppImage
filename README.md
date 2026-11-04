@@ -39,7 +39,7 @@ Because I am too lazy to set up automatic GitHub Actions builds, the pre-built A
 If you want the absolute latest fixes and features, compile it yourself using the instructions below.
 
     # 1. Clone this repository
-    git clone https://github.com/Saise-g/AstroQuest-Appimage.git
+    git clone https://github.com/Saise-g/AstroQuest-AppImage.git
     cd astroquest-linux-scripts
 
     # 2. Make the master script executable
@@ -56,6 +56,7 @@ A raw dumped game folder (`CUSA12392`) needed to run the game, takes up about **
 
 > *Yes, I know that you need to download a ton of dependencies and wait for it to compile, wasting time and more disk space, but it's worth it afterwards. I also know that you'll probably have a .pkg and you have to decompress it just to recompress it afterwards, but the emulator can only run raw folders so... yeah.*
 
+    # Follow steps 1 and 2 from above
     # Run the script and provide the path to your game folder when prompted
     # (The folder must contain 'eboot.bin')
     ./build-everything.sh
