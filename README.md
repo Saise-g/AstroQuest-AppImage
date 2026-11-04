@@ -1,4 +1,4 @@
-# AstroQuest Linux Build & AppImage Scripts
+# AstroQuest AppImage Builder
 
 > ⚠️ **DISCLAIMER: FOR PERSONAL USE ONLY** ⚠️  
 > This repository contains **only automation scripts**. It does **not** contain, distribute, or link to any copyrighted game files, firmware, or keys. You must own a legal copy of *ASTRO BOT Rescue Mission* (PS4)(CUSA12392) and dump it yourself.  
