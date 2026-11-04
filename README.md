@@ -54,7 +54,7 @@ If you are building this strictly for **your own personal use**, you can bundle 
 **💡 The Space-Saving Advantage:**  
 A raw dumped game folder (`CUSA12392`) needed to run the game, takes up about **~13 GB** of disk space. However, when you pass the `GAME_DIR` variable to the build script, `build-appimage.sh` uses `zstd` compression (`--comp zstd`). This compresses the 13 GB of game data down to roughly **~6.6 GB** inside the final AppImage. This saves nearly 50% of disk space while maintaining lightning-fast decompression on the fly during gameplay!
 
-> *Yes, I know that you'll probably have a `.pkg` and you have to decompress it just to recompress it afterwards, but the emulator can only run raw folders so... yeah.*
+> *Yes, I know that you need to download a ton of dependencies and wait for it to compile, wasting time and more disk space, but it's worth it afterwards. I also know that you'll probably have a .pkg and you have to decompress it just to recompress it afterwards, but the emulator can only run raw folders so... yeah.*
 
     # Run the script and provide the path to your game folder when prompted
     # (The folder must contain 'eboot.bin')
