@@ -70,14 +70,15 @@ A raw dumped game folder (`CUSA12392`) needed to run the game, takes up about **
 ## 🎮 How to Play
 
 1. **Set up your OpenXR Runtime**: Ensure you have an OpenXR runtime installed and set as active (e.g., **WiVRn** or **Monado**). The launcher will warn you if none is detected.
-2. **Connect your Controller**: Plug in or pair your PS5 DualSense (or DualShock 4) to your **PC**, *not* the headset. 
-3. **Run the AppImage**:
+2. **Connect your Controller**: Plug in or pair your PS5 DualSense (or DualShock 4) to your **PC**, *not* the headset.
+3. > *Note: Hand tracking for controller position has not yet been tested. This build was specifically tested on a Pico 4 Enterprise using Pico 4 controllers and WiVRn.*
+4. **Run the AppImage**:
 
         chmod +x AstroQuest-x86_64.AppImage
         ./AstroQuest-x86_64.AppImage
 
-4. **First Launch**: If you didn't bundle the game, a GUI or terminal prompt will ask you to select the folder containing your `eboot.bin` or `.pkg` file. If you provide a `.pkg`, the launcher will automatically unpack it for you.
-5. **Settings Menu**: A settings window will appear allowing you to configure resolution, framerate, FOV, and desktop spectator view. These settings are saved to `~/.config/AstroQuest/settings.txt`.
+5. **First Launch**: If you didn't bundle the game, a GUI or terminal prompt will ask you to select the folder containing your `eboot.bin` or `.pkg` file. If you provide a `.pkg`, the launcher will automatically unpack it for you.
+6. **Settings Menu**: A settings window will appear allowing you to configure resolution, framerate, FOV, and desktop spectator view. These settings are saved to `~/.config/AstroQuest/settings.txt`.
 
 ---
 
